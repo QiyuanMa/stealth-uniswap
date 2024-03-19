@@ -21,7 +21,6 @@ const MEDIA_WIDTHS = {
   upToLarge: 1280
 }
 
-// 转换十六进制颜色为RGBA格式的函数
 function hexToRgba(hex: string, alpha: number = 1): string {
   let r = 0, g = 0, b = 0;
   if (hex.length === 4) {
